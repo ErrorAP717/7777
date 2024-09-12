@@ -1,0 +1,356 @@
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set KasmPasswordFile(String) to /home/shiyanlou/.kasmpasswd
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set sslOnly(Bool) to 1(1)
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set WebpVideoQuality(Int) to -1
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set AcceptCutText(Bool) to 1(1)
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set DLP_ClipAcceptMax(Int) to 0
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set AvoidShiftNumLock(Bool) to 0(0)
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set AcceptSetDesktopSize(Bool) to 1(1)
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set TreatLossless(Int) to 10
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set rfbport(Int) to 5901
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set PasswordFile(String) to /home/shiyanlou/.vnc/passwd
+ 2024-09-12 06:49:58,755 [DEBUG] Config: set ClientWaitTimeMillis(Int) to 30000
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+Xvnc KasmVNC 1.1.0.56c840fc947d891f054bf251d2a02454d3e6f686 - built Apr  5 2023 14:39:13
+Copyright (C) 1999-2018 KasmVNC Team and many others (see README.me)
+See http://kasmweb.com for information on KasmVNC.
+Underlying X server release 12010000, The X.Org Foundation
+
+ 2024-09-12 06:49:58,756 [DEBUG] vncext: Adding DLP binary mime type chromium/x-web-custom-data
+ 2024-09-12 06:49:58,756 [DEBUG] vncext: Adding DLP binary mime type text/html
+ 2024-09-12 06:49:58,756 [DEBUG] vncext: Adding DLP binary mime type image/png
+ 2024-09-12 06:49:58,756 [DEBUG] vncext: Total 3 binary mime types
+ 2024-09-12 06:49:58,756 [INFO] ICE: Using public IP 0.0.0.0 from args
+ 2024-09-12 06:49:58,756 [INFO] vncext: VNC extension running!
+ 2024-09-12 06:49:58,756 [DEBUG] Config: set immutable AllowOverride
+ 2024-09-12 06:49:58,757 [INFO] vncext: Listening for websocket connections on 0.0.0.0 interface(s), port 3001
+ 2024-09-12 06:49:58,757 [DEBUG] VNCServerST: creating single-threaded server 66e28f1533763e931fc58738:1 (shiyanlou)
+ 2024-09-12 06:49:58,758 [INFO] VNCServerST: CPU capability: SSE2 yes, AVX512f yes
+ 2024-09-12 06:49:58,758 [INFO] vncext: created VNC server for screen 0
+ 2024-09-12 06:49:58,827 [DEBUG] WebUdp: UDP listening on port 3001
+ 2024-09-12 06:49:58,836 [INFO] Input: Mouse horizonatl scroll factor: 50.000000
+ 2024-09-12 06:49:58,836 [INFO] Input: Mouse vertical scroll factor: 50.000000
+/usr/bin/startxfce4: X server already running on display :1
+ 2024-09-12 06:49:58,904 [DEBUG] Selection: Selection owner change for _DBUS_SESSION_BUS_SELECTION_shiyanlou_d38b814977b1db22c41ef9c45ff56a43
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+xfce4-session: No GPG agent found
+
+(xfce4-session:70): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/shiyanlou/.cache/sessions/xfce4-session-66e28f1533763e931fc58738:1, Does it exist? Permissions issue?
+ 2024-09-12 06:49:59,147 [DEBUG] Selection: Selection owner change for WM_S0
+ 2024-09-12 06:49:59,233 [DEBUG] Selection: Selection owner change for _XSETTINGS_S0
+
+(xfsettingsd:89): libupower-glib-WARNING **: Couldn't connect to proxy: 无法连接： 没有那个文件或目录
+
+(xfsettingsd:89): libupower-glib-CRITICAL **: up_client_get_lid_is_closed: assertion 'UP_IS_CLIENT (client)' failed
+
+(xfsettingsd:89): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(xfsettingsd:89): GLib-GObject-CRITICAL **: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+ 2024-09-12 06:49:59,331 [DEBUG] Selection: Selection owner change for XFDESKTOP_SELECTION_0
+ 2024-09-12 06:49:59,331 [DEBUG] Selection: Selection owner change for _NET_DESKTOP_MANAGER_S0
+ 2024-09-12 06:49:59,528 [DEBUG] Selection: Selection owner change for CLIPBOARD_MANAGER
+ 2024-09-12 06:49:59,715 [INFO] websocket 0: got client connection from 172.16.0.27
+ 2024-09-12 06:49:59,719 [DEBUG] websocket 0: using SSL socket
+ 2024-09-12 06:49:59,720 [DEBUG] websocket 0: X-Forwarded-For ip '220.175.141.48'
+ 2024-09-12 06:49:59,726 [DEBUG] websocket 0: BasicAuth matched
+ 2024-09-12 06:49:59,726 [DEBUG] websocket 0: using protocol HyBi/IETF 6455 13
+ 2024-09-12 06:49:59,726 [DEBUG] websocket 0: connecting to VNC target
+ 2024-09-12 06:49:59,726 [DEBUG] XserverDesktop: new client, sock 30
+ 2024-09-12 06:49:59,739 [INFO] EncodeManager: WEBP benchmark result: 7 ms
+ 2024-09-12 06:49:59,739 [PRIO] Connections: accepted: shiyanlou@220.175.141.48_1726123799.726192::websocket
+ 2024-09-12 06:49:59,740 [DEBUG] Selection: Selection owner change for _NET_SYSTEM_TRAY_S0
+ 2024-09-12 06:49:59,749 [DEBUG] Selection: Selection owner change for XFWM4_COMPOSITING_MANAGER
+ 2024-09-12 06:49:59,817 [DEBUG] SConnection: reading protocol version
+ 2024-09-12 06:49:59,817 [INFO] SConnection: Client needs protocol version 3.8
+ 2024-09-12 06:49:59,846 [DEBUG] SConnection: processing security type message
+ 2024-09-12 06:49:59,846 [INFO] SConnection: Client requests security type VncAuth(2)
+ 2024-09-12 06:49:59,846 [DEBUG] SConnection: processing security message
+ 2024-09-12 06:49:59,920 [DEBUG] SConnection: processing security message
+ 2024-09-12 06:49:59,920 [DEBUG] SVncAuth: reading password file
+ 2024-09-12 06:49:59,920 [DEBUG] VNCServerST: starting desktop
+ 2024-09-12 06:49:59,929 [INFO] VNCSConnST: Server default pixel format depth 24 (32bpp) little-endian rgb888
+ 2024-09-12 06:49:59,945 [DEBUG] SConnection: reading client initialisation
+ 2024-09-12 06:50:00,016 [INFO] VNCSConnST: Client pixel format depth 24 (32bpp) little-endian bgr888
+ 2024-09-12 06:50:00,041 [DEBUG] XserverDesktop: Got request for framebuffer resize to 827x696
+ 2024-09-12 06:50:00,041 [DEBUG] XserverDesktop: 1 screen(s)
+             0 (0x00000000): 827x696+0+0 (flags 0x00000000)
+
+ 2024-09-12 06:50:00,041 [DEBUG] RandR: Resizing screen framebuffer to 827x696
+ 2024-09-12 06:50:00,041 [DEBUG] RandR: Temporarily disabling output 'VNC-0'
+ 2024-09-12 06:50:00,045 [INFO] ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ 2024-09-12 06:50:00,045 [INFO] ComparingUpdateTracker: (1:-nan ratio)
+ 2024-09-12 06:50:00,045 [DEBUG] RandR: Reconfiguring new output 'VNC-0' to 827x696+0+0
+
+(xfwm4:81): xfwm4-WARNING **: output size (827x696) and logical screen size (1024x768) do not match
+
+** (xfdesktop:90): CRITICAL **: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+ 2024-09-12 06:50:02,605 [INFO] VNCSConnST: Client shiyanlou@220.175.141.48_1726123799.726192 requesting upgrade to udp
+
+(Thunar:87): GVFS-RemoteVolumeMonitor-WARNING **: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+ 2024-09-12 06:50:10,905 [DEBUG] WebUdp: Removing dead client due to no messages in 9s
+ 2024-09-12 06:50:12,906 [INFO] WebUdp: client leave
+ 2024-09-12 06:50:16,814 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 06:50:26,360 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:50:26,360 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:50:26,833 [INFO] EncodeManager: Max encoding time during the last 60 frames: 4 ms (limit 16, near limit 13)
+ 2024-09-12 06:50:28,161 [DEBUG] Selection: Selection owner change for PRIMARY
+
+(gedit:160): GVFS-RemoteVolumeMonitor-WARNING **: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+ 2024-09-12 06:50:35,119 [INFO] EncodeManager: Max encoding time during the last 60 frames: 34 ms (limit 16, near limit 13)
+
+(gedit:160): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ 2024-09-12 06:50:47,574 [INFO] EncodeManager: Max encoding time during the last 60 frames: 2 ms (limit 16, near limit 13)
+ 2024-09-12 06:51:14,752 [INFO] EncodeManager: Max encoding time during the last 60 frames: 2 ms (limit 16, near limit 13)
+ 2024-09-12 06:51:25,481 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:51:28,705 [INFO] EncodeManager: Max encoding time during the last 60 frames: 4 ms (limit 16, near limit 13)
+ 2024-09-12 06:51:32,226 [INFO] EncodeManager: Max encoding time during the last 60 frames: 7 ms (limit 16, near limit 13)
+ 2024-09-12 06:52:11,093 [INFO] EncodeManager: Max encoding time during the last 60 frames: 42 ms (limit 16, near limit 13)
+ 2024-09-12 06:52:15,936 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:52:22,131 [INFO] EncodeManager: Max encoding time during the last 60 frames: 6 ms (limit 16, near limit 13)
+ 2024-09-12 06:52:29,210 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 06:52:44,396 [DEBUG] websocket 0: client sent orderly close frame
+ 2024-09-12 06:52:44,396 [DEBUG] XserverDesktop: client gone, sock 30
+ 2024-09-12 06:52:44,396 [DEBUG] websocket 0: handler exit
+ 2024-09-12 06:52:44,396 [PRIO] Connections: closed: shiyanlou@220.175.141.48_1726123799.726192::websocket (Clean disconnection)
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager: Framebuffer updates: 753
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:   CopyRect:
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:     Copies: 7 rects, 499.944 kpixels
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:             112 B (1:17855.9 ratio)
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:   Tight:
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:     Solid: 349 rects, 7.65837 Mpixels
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:            5.45312 KiB (1:5486.69 ratio)
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:     Bitmap RLE: 60 rects, 41.065 kpixels
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:                 1.93164 KiB (1:83.4075 ratio)
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:     Indexed RLE: 857 rects, 1.83322 Mpixels
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:                  589.217 KiB (1:12.1705 ratio)
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:     Full Colour: 152 rects, 623.944 kpixels
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:                  326.882 KiB (1:7.4616 ratio)
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:   Tight (JPEG):
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:     Full Colour: 194 rects, 1.63955 Mpixels
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:                  731.807 KiB (1:8.75475 ratio)
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:   Total: 1.619 krects, 12.2961 Mpixels
+ 2024-09-12 06:52:44,396 [INFO] EncodeManager:          1.6166 MiB (1:29.0266 ratio)
+ 2024-09-12 06:52:44,396 [DEBUG] VNCServerST: stopping desktop
+ 2024-09-12 06:52:44,396 [INFO] ComparingUpdateTracker: 21.2105 Mpixels in / 9.20635 Mpixels out
+ 2024-09-12 06:52:44,396 [INFO] ComparingUpdateTracker: (1:2.3039 ratio)
+ 2024-09-12 06:53:07,019 [INFO] websocket 1: got client connection from 172.16.0.27
+ 2024-09-12 06:53:07,022 [DEBUG] websocket 1: using SSL socket
+ 2024-09-12 06:53:07,022 [DEBUG] websocket 1: X-Forwarded-For ip '220.175.141.48'
+ 2024-09-12 06:53:07,025 [DEBUG] websocket 1: BasicAuth matched
+ 2024-09-12 06:53:07,025 [DEBUG] websocket 1: using protocol HyBi/IETF 6455 13
+ 2024-09-12 06:53:07,025 [DEBUG] websocket 1: connecting to VNC target
+ 2024-09-12 06:53:07,025 [DEBUG] XserverDesktop: new client, sock 30
+ 2024-09-12 06:53:07,037 [INFO] EncodeManager: WEBP benchmark result: 6 ms
+ 2024-09-12 06:53:07,038 [PRIO] Connections: accepted: shiyanlou@220.175.141.48_1726123987.25599::websocket
+ 2024-09-12 06:53:07,213 [DEBUG] SConnection: reading protocol version
+ 2024-09-12 06:53:07,213 [INFO] SConnection: Client needs protocol version 3.8
+ 2024-09-12 06:53:07,319 [DEBUG] SConnection: processing security type message
+ 2024-09-12 06:53:07,319 [INFO] SConnection: Client requests security type VncAuth(2)
+ 2024-09-12 06:53:07,319 [DEBUG] SConnection: processing security message
+ 2024-09-12 06:53:07,338 [DEBUG] SConnection: processing security message
+ 2024-09-12 06:53:07,338 [DEBUG] SVncAuth: reading password file
+ 2024-09-12 06:53:07,338 [DEBUG] VNCServerST: starting desktop
+ 2024-09-12 06:53:07,340 [INFO] VNCSConnST: Server default pixel format depth 24 (32bpp) little-endian rgb888
+ 2024-09-12 06:53:07,442 [DEBUG] SConnection: reading client initialisation
+ 2024-09-12 06:53:07,518 [INFO] VNCSConnST: Client pixel format depth 24 (32bpp) little-endian bgr888
+ 2024-09-12 06:53:07,549 [DEBUG] XserverDesktop: Got request for framebuffer resize to 827x696
+ 2024-09-12 06:53:07,550 [DEBUG] XserverDesktop: 1 screen(s)
+             0 (0x00000000): 827x696+0+0 (flags 0x00000000)
+
+ 2024-09-12 06:53:07,550 [DEBUG] RandR: Reconfiguring output 'VNC-0' to 827x696+0+0
+ 2024-09-12 06:53:09,855 [INFO] VNCSConnST: Client shiyanlou@220.175.141.48_1726123987.25599 requesting upgrade to udp
+ 2024-09-12 06:53:19,570 [DEBUG] WebUdp: Removing dead client due to no messages in 9s
+ 2024-09-12 06:53:21,578 [INFO] WebUdp: client leave
+ 2024-09-12 06:53:27,701 [DEBUG] SMsgReader: Received binary clipboard, type text/plain, 45 bytes
+ 2024-09-12 06:53:27,701 [DEBUG] Selection: Remote binary clipboard announced, grabbing local ownership
+ 2024-09-12 06:53:27,701 [DEBUG] Selection: Created selection window
+ 2024-09-12 06:53:27,701 [DEBUG] Selection: Grabbed PRIMARY selection
+ 2024-09-12 06:53:27,701 [DEBUG] Selection: Grabbed CLIPBOARD selection
+ 2024-09-12 06:53:27,701 [DEBUG] Selection: Client sent 1 mimes, 0 were valid
+ 2024-09-12 06:53:27,702 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:53:27,702 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:53:27,702 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:53:32,587 [DEBUG] Selection: Selection owner change for PRIMARY
+
+(xfce4-terminal:189): Gdk-CRITICAL **: IA__gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+ 2024-09-12 06:53:34,768 [DEBUG] Selection: Selection request for CLIPBOARD (type UTF8_STRING)
+ 2024-09-12 06:53:47,473 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:53:56,046 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:53:58,113 [DEBUG] Selection: Selection owner change for CLIPBOARD
+ 2024-09-12 06:53:58,113 [DEBUG] Selection: Got clipboard notification, probing for formats
+ 2024-09-12 06:53:58,113 [DEBUG] Selection: Requesting TARGETS for CLIPBOARD selection
+ 2024-09-12 06:53:58,115 [DEBUG] Selection: Selection notification for CLIPBOARD (target TARGETS, property TARGETS, type ATOM)
+ 2024-09-12 06:53:58,115 [DEBUG] Selection: Compatible format found, notifying clients
+ 2024-09-12 06:53:58,115 [DEBUG] Selection: Got request for local clipboard, re-probing formats
+ 2024-09-12 06:53:58,115 [DEBUG] Selection: Requesting TARGETS for CLIPBOARD selection
+ 2024-09-12 06:53:58,116 [DEBUG] Selection: Selection notification for CLIPBOARD (target TARGETS, property TARGETS, type ATOM)
+ 2024-09-12 06:53:58,116 [DEBUG] Selection: Requesting UTF8_STRING for CLIPBOARD selection
+ 2024-09-12 06:53:58,116 [DEBUG] Selection: Selection notification for CLIPBOARD (target UTF8_STRING, property UTF8_STRING, type UTF8_STRING)
+ 2024-09-12 06:53:58,116 [DEBUG] Selection: Sending text part of binary clipboard to clients (31 bytes)
+ 2024-09-12 06:53:58,123 [INFO] EncodeManager: Max encoding time during the last 60 frames: 4 ms (limit 16, near limit 13)
+ 2024-09-12 06:54:06,099 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:54:16,933 [INFO] EncodeManager: Max encoding time during the last 60 frames: 2 ms (limit 16, near limit 13)
+ 2024-09-12 06:54:20,229 [INFO] EncodeManager: Max encoding time during the last 60 frames: 2 ms (limit 16, near limit 13)
+ 2024-09-12 06:54:24,720 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:54:29,576 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,623 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,640 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,672 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,721 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,767 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,778 [INFO] EncodeManager: Max encoding time during the last 60 frames: 4 ms (limit 16, near limit 13)
+ 2024-09-12 06:54:29,826 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,844 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,862 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,879 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,929 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,946 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:29,963 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:30,030 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:30,048 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:30,065 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:30,085 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:30,131 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:30,240 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:30,476 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 06:54:31,167 [DEBUG] Selection: Local clipboard lost, notifying clients
+ 2024-09-12 06:54:31,167 [DEBUG] Selection: Selection owner change for CLIPBOARD
+ 2024-09-12 06:54:31,167 [DEBUG] Selection: Got clipboard notification, probing for formats
+ 2024-09-12 06:54:31,167 [DEBUG] Selection: Requesting TARGETS for CLIPBOARD selection
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Selection notification for CLIPBOARD (target TARGETS, property TARGETS, type ATOM)
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Compatible format found, notifying clients
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Got request for local clipboard, re-probing formats
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Requesting TARGETS for CLIPBOARD selection
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Selection notification for CLIPBOARD (target TARGETS, property TARGETS, type ATOM)
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Requesting UTF8_STRING for CLIPBOARD selection
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Selection notification for CLIPBOARD (target UTF8_STRING, property UTF8_STRING, type UTF8_STRING)
+ 2024-09-12 06:54:31,168 [DEBUG] Selection: Sending text part of binary clipboard to clients (99 bytes)
+ 2024-09-12 06:54:36,310 [DEBUG] SMsgReader: Received binary clipboard, type text/plain, 99 bytes
+ 2024-09-12 06:54:36,310 [DEBUG] Selection: Remote binary clipboard announced, grabbing local ownership
+ 2024-09-12 06:54:36,310 [DEBUG] Selection: Grabbed PRIMARY selection
+ 2024-09-12 06:54:36,310 [DEBUG] Selection: Grabbed CLIPBOARD selection
+ 2024-09-12 06:54:36,310 [DEBUG] Selection: Local clipboard lost, notifying clients
+ 2024-09-12 06:54:36,310 [DEBUG] Selection: Client sent 1 mimes, 0 were valid
+ 2024-09-12 06:54:36,310 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:54:36,311 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:54:36,311 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:54:36,312 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:54:36,312 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:55:01,718 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:55:10,012 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:56:15,209 [DEBUG] websocket 1: client sent orderly close frame
+ 2024-09-12 06:56:15,209 [DEBUG] XserverDesktop: client gone, sock 30
+ 2024-09-12 06:56:15,209 [DEBUG] websocket 1: handler exit
+ 2024-09-12 06:56:15,209 [DEBUG] Selection: Remote clipboard lost, removing local ownership
+ 2024-09-12 06:56:15,209 [PRIO] Connections: closed: shiyanlou@220.175.141.48_1726123987.25599::websocket (Clean disconnection)
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager: Framebuffer updates: 553
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:   CopyRect:
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:     Copies: 7 rects, 382.448 kpixels
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:             112 B (1:13659.6 ratio)
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:   Tight:
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:     Solid: 325 rects, 3.53987 Mpixels
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:            5.07812 KiB (1:2723.73 ratio)
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:     Bitmap RLE: 43 rects, 26.343 kpixels
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:                 1.36816 KiB (1:75.5803 ratio)
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:     Indexed RLE: 784 rects, 2.03947 Mpixels
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:                  637.758 KiB (1:12.5061 ratio)
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:     Full Colour: 129 rects, 579.051 kpixels
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:                  278.368 KiB (1:8.13107 ratio)
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:   Tight (JPEG):
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:     Full Colour: 162 rects, 1.49783 Mpixels
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:                  786.188 KiB (1:7.44453 ratio)
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:   Total: 1.45 krects, 8.06501 Mpixels
+ 2024-09-12 06:56:15,209 [INFO] EncodeManager:          1.66882 MiB (1:18.4455 ratio)
+ 2024-09-12 06:56:15,209 [DEBUG] VNCServerST: stopping desktop
+ 2024-09-12 06:56:15,209 [INFO] ComparingUpdateTracker: 29.9384 Mpixels in / 5.88659 Mpixels out
+ 2024-09-12 06:56:15,209 [INFO] ComparingUpdateTracker: (1:5.08586 ratio)
+ 2024-09-12 06:56:42,383 [INFO] websocket 2: got client connection from 172.16.6.33
+ 2024-09-12 06:56:42,388 [DEBUG] websocket 2: using SSL socket
+ 2024-09-12 06:56:42,391 [DEBUG] websocket 2: X-Forwarded-For ip '220.175.141.48'
+ 2024-09-12 06:56:42,393 [DEBUG] websocket 2: BasicAuth matched
+ 2024-09-12 06:56:42,393 [DEBUG] websocket 2: using protocol HyBi/IETF 6455 13
+ 2024-09-12 06:56:42,393 [DEBUG] websocket 2: connecting to VNC target
+ 2024-09-12 06:56:42,393 [DEBUG] XserverDesktop: new client, sock 30
+ 2024-09-12 06:56:42,405 [INFO] EncodeManager: WEBP benchmark result: 6 ms
+ 2024-09-12 06:56:42,405 [PRIO] Connections: accepted: shiyanlou@220.175.141.48_1726124202.393575::websocket
+ 2024-09-12 06:56:42,574 [DEBUG] SConnection: reading protocol version
+ 2024-09-12 06:56:42,574 [INFO] SConnection: Client needs protocol version 3.8
+ 2024-09-12 06:56:42,648 [DEBUG] SConnection: processing security type message
+ 2024-09-12 06:56:42,648 [INFO] SConnection: Client requests security type VncAuth(2)
+ 2024-09-12 06:56:42,648 [DEBUG] SConnection: processing security message
+ 2024-09-12 06:56:42,681 [DEBUG] SConnection: processing security message
+ 2024-09-12 06:56:42,681 [DEBUG] SVncAuth: reading password file
+ 2024-09-12 06:56:42,681 [DEBUG] VNCServerST: starting desktop
+ 2024-09-12 06:56:42,681 [INFO] VNCSConnST: Server default pixel format depth 24 (32bpp) little-endian rgb888
+ 2024-09-12 06:56:42,774 [DEBUG] SConnection: reading client initialisation
+ 2024-09-12 06:56:42,852 [INFO] VNCSConnST: Client pixel format depth 24 (32bpp) little-endian bgr888
+ 2024-09-12 06:56:42,888 [DEBUG] XserverDesktop: Got request for framebuffer resize to 827x696
+ 2024-09-12 06:56:42,888 [DEBUG] XserverDesktop: 1 screen(s)
+             0 (0x00000000): 827x696+0+0 (flags 0x00000000)
+
+ 2024-09-12 06:56:42,888 [DEBUG] RandR: Reconfiguring output 'VNC-0' to 827x696+0+0
+ 2024-09-12 06:56:45,202 [INFO] VNCSConnST: Client shiyanlou@220.175.141.48_1726124202.393575 requesting upgrade to udp
+ 2024-09-12 06:56:54,376 [DEBUG] WebUdp: Removing dead client due to no messages in 9s
+ 2024-09-12 06:56:56,386 [INFO] WebUdp: client leave
+ 2024-09-12 06:57:00,819 [INFO] EncodeManager: Max encoding time during the last 60 frames: 4 ms (limit 16, near limit 13)
+ 2024-09-12 06:57:05,960 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:57:14,301 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 06:57:19,916 [INFO] EncodeManager: Max encoding time during the last 60 frames: 4 ms (limit 16, near limit 13)
+ 2024-09-12 06:57:30,576 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:57:54,056 [DEBUG] SMsgReader: Received binary clipboard, type text/plain, 34 bytes
+ 2024-09-12 06:57:54,056 [DEBUG] Selection: Remote binary clipboard announced, grabbing local ownership
+ 2024-09-12 06:57:54,056 [DEBUG] Selection: Grabbed PRIMARY selection
+ 2024-09-12 06:57:54,057 [DEBUG] Selection: Grabbed CLIPBOARD selection
+ 2024-09-12 06:57:54,057 [DEBUG] Selection: Client sent 1 mimes, 0 were valid
+ 2024-09-12 06:57:54,057 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:57:54,057 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:57:54,057 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:57:54,058 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 06:57:55,477 [INFO] EncodeManager: Max encoding time during the last 60 frames: 6 ms (limit 16, near limit 13)
+ 2024-09-12 06:57:59,136 [DEBUG] Selection: Selection request for CLIPBOARD (type UTF8_STRING)
+ 2024-09-12 06:58:15,518 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 06:58:21,895 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 06:59:07,623 [INFO] EncodeManager: Max encoding time during the last 60 frames: 6 ms (limit 16, near limit 13)
+ 2024-09-12 06:59:16,594 [INFO] EncodeManager: Max encoding time during the last 60 frames: 9 ms (limit 16, near limit 13)
+ 2024-09-12 07:01:24,737 [INFO] EncodeManager: Max encoding time during the last 60 frames: 8 ms (limit 16, near limit 13)
+ 2024-09-12 07:01:31,562 [INFO] EncodeManager: Max encoding time during the last 60 frames: 6 ms (limit 16, near limit 13)
+ 2024-09-12 07:02:27,834 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 07:02:32,377 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 07:02:32,581 [DEBUG] Selection: Selection owner change for PRIMARY
+ 2024-09-12 07:02:34,125 [DEBUG] Selection: Selection owner change for CLIPBOARD
+ 2024-09-12 07:02:34,125 [DEBUG] Selection: Got clipboard notification, probing for formats
+ 2024-09-12 07:02:34,125 [DEBUG] Selection: Requesting TARGETS for CLIPBOARD selection
+ 2024-09-12 07:02:34,126 [DEBUG] Selection: Selection notification for CLIPBOARD (target TARGETS, property TARGETS, type ATOM)
+ 2024-09-12 07:02:34,126 [DEBUG] Selection: Compatible format found, notifying clients
+ 2024-09-12 07:02:34,127 [DEBUG] Selection: Got request for local clipboard, re-probing formats
+ 2024-09-12 07:02:34,127 [DEBUG] Selection: Requesting TARGETS for CLIPBOARD selection
+ 2024-09-12 07:02:34,127 [DEBUG] Selection: Selection notification for CLIPBOARD (target TARGETS, property TARGETS, type ATOM)
+ 2024-09-12 07:02:34,127 [DEBUG] Selection: Requesting UTF8_STRING for CLIPBOARD selection
+ 2024-09-12 07:02:34,127 [DEBUG] Selection: Selection notification for CLIPBOARD (target UTF8_STRING, property UTF8_STRING, type UTF8_STRING)
+ 2024-09-12 07:02:34,127 [DEBUG] Selection: Sending text part of binary clipboard to clients (69 bytes)
+ 2024-09-12 07:02:41,860 [DEBUG] SMsgReader: Received binary clipboard, type text/plain, 68 bytes
+ 2024-09-12 07:02:41,860 [DEBUG] Selection: Remote binary clipboard announced, grabbing local ownership
+ 2024-09-12 07:02:41,860 [DEBUG] Selection: Grabbed PRIMARY selection
+ 2024-09-12 07:02:41,860 [DEBUG] Selection: Grabbed CLIPBOARD selection
+ 2024-09-12 07:02:41,860 [DEBUG] Selection: Local clipboard lost, notifying clients
+ 2024-09-12 07:02:41,860 [DEBUG] Selection: Client sent 1 mimes, 0 were valid
+ 2024-09-12 07:02:41,861 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:02:41,861 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:02:41,861 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:02:41,862 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:03:35,894 [INFO] EncodeManager: Max encoding time during the last 60 frames: 2 ms (limit 16, near limit 13)
+ 2024-09-12 07:04:00,242 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 07:04:12,026 [DEBUG] SMsgReader: Received binary clipboard, type text/plain, 175 bytes
+ 2024-09-12 07:04:12,026 [DEBUG] Selection: Remote binary clipboard announced, grabbing local ownership
+ 2024-09-12 07:04:12,026 [DEBUG] Selection: Grabbed PRIMARY selection
+ 2024-09-12 07:04:12,026 [DEBUG] Selection: Grabbed CLIPBOARD selection
+ 2024-09-12 07:04:12,026 [DEBUG] Selection: Client sent 1 mimes, 0 were valid
+ 2024-09-12 07:04:12,027 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:04:12,027 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:04:12,027 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:04:12,028 [DEBUG] Selection: Selection request for CLIPBOARD (type TARGETS)
+ 2024-09-12 07:05:53,299 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 07:06:21,489 [INFO] EncodeManager: Max encoding time during the last 60 frames: 3 ms (limit 16, near limit 13)
+ 2024-09-12 07:06:33,933 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 07:07:41,113 [INFO] EncodeManager: Max encoding time during the last 60 frames: 5 ms (limit 16, near limit 13)
+ 2024-09-12 07:08:01,493 [INFO] EncodeManager: Max encoding time during the last 60 frames: 75 ms (limit 16, near limit 13)

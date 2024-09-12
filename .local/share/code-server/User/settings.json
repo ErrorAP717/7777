@@ -1,0 +1,19 @@
+{
+  "editor.fontSize": 16,
+  "workbench.colorTheme": "Default Dark+",
+  "terminal.integrated.cwd": "/home/project",
+  "window.openFoldersInNewWindow": "off",
+  "update.mode": "none",
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "restoreTerminals.terminals": [
+      {
+        "splitTerminals": [
+          {
+            "name": "zsh",
+            "commands": [""]
+          }
+        ]
+      }
+    ]
+}

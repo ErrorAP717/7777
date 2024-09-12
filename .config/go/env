@@ -1,0 +1,4 @@
+GO111MODULE=on
+GOBIN=/home/shiyanlou/golang/bin
+GOPATH=/home/shiyanlou/golang
+GOPROXY=https://goproxy.cn/,direct
